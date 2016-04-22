@@ -96,6 +96,7 @@
 >enum RobotController::RotateDirection
 
 该枚举变量定义的是底盘旋转的方向，假设从底盘的顶端竖直向下看。
+
 |Constant|Value|Description|
 |:----|:----|:----|
 |RobotController::CLOCKWISE|0|顺时针旋转|
@@ -107,6 +108,7 @@
 >enum RobotController::LiftDirection
 
 定义升降杆的运动方向
+
 |Constant|Value|Description|
 |:----|:----|:----|
 |RobotController::UP|0|升降杆上升|
@@ -118,6 +120,7 @@
 >enum LimitSwitchState
 
 定义限位开关的状态
+
 |Constant|Value|Description|
 |:----|:----|:----|
 |RobotController::LIMIT_NONE_TOGGLED|0|上下限位开关都没有触发|
@@ -131,6 +134,7 @@
 >enum OpenPortState
 
 该枚举变量定义的是打开串口方法所返回的结果
+
 |Constant|Value|Description|
 |:----|:-----|:-----|
 |RobotController::PORT_OPEN_SUCCESS|0|打开串口成功|
