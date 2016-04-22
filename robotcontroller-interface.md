@@ -90,9 +90,6 @@
 |RobotController::MIDDLE|1|中速模式，最高速度的50%|
 |RobotController::HIGH|2|高速模式，最高速度的80%|
 
-
-------
-
 >enum RobotController::RotateDirection
 
 该枚举变量定义的是底盘旋转的方向，假设从底盘的顶端竖直向下看。
@@ -102,9 +99,6 @@
 |RobotController::CLOCKWISE|0|顺时针旋转|
 |RobotController::COUNTER_CLOCKWISE|1|逆时针计旋转|
 
-
-------
-
 >enum RobotController::LiftDirection
 
 定义升降杆的运动方向
@@ -113,9 +107,6 @@
 |:----|:----|:----|
 |RobotController::UP|0|升降杆上升|
 |RobotController::DOWN|1|升降杆下降|
-
-
-------
 
 >enum LimitSwitchState
 
@@ -127,9 +118,6 @@
 |RobotController::LIMIT_TOP_TOGGLED|1|上端限位开关被触发|
 |RobotController::LIMIT_BOTTOM_TOGGLED|2|下端限位开关被触发|
 |RobotController::LIMIT_UNKNOW_STATE|3|限位开关处于不明状态，这里多数会由于硬件干扰而导致|
-
-
-------
 
 >enum OpenPortState
 
